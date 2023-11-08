@@ -93,35 +93,47 @@
                 <th>Registration Form</th>
             </tr>
             <tr>
-                <td><label for="enter-name">Enter Name</label>
-                    <input type="text" name="nome">
-                </td>
+                <td><label for="enter-name">Enter Name</label></td>
+                <td><input type="text" name="nome"></td>
             </tr>
             <tr>
                 <td>
-                    <label for="password">Password</label>
-                    <input type="text" name="password" id="password">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="email-address">Email address</label>
-                    <input type="text" name="email-address" id="email-address">
-                </td>
+                    <label for="password">Password</label></td>
+                    <td><input type="text" name="password" id="password"></td>
             </tr>
             <br>
             <tr>
                 <td>
-                    Gender : 
+                    <label for="email-address">Email address</label></td>
+                    <td><input type="text" name="email-address" id="email-address"></td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    <label for="gender">Gender :</label></td>
+                    <td><input type="checkbox">
+                        <label for="male">male</label>
+                        <br>
+                        <input type="checkbox" name="female" id="female">
+                        <label for="female">female</label>
+                        <br>
+                        <input type="checkbox" name="other" id="other">
+                        <label for="other">other</label></td>
+            </tr>
+            <tr>
+                
+                    <td><label for="Select-game">Select game :</label></td>
+                    
                     <td>
-                        <input type="checkbox" name="gender" id="">
-                        <label for="man">Man</label> <br>
                         <input type="checkbox">
-                        <label for="female">Female</label><br>
-                        <input type="radio" name="" id="Maggiorenne">
-                        <label for="">Maggiorenne</label>
+                        <label for="Hockey">Hockey</label>
+                        <br>
+                        <input type="checkbox" name="football" id="football">
+                        <label for="female">Football</label>
+                        <br>
+                        <input type="checkbox" name="Cricket" id="Cricket">
+                        <label for="other">Cricket</label>
                     </td>
-                </td>
             </tr>
             <tr>
                 <td>
@@ -129,9 +141,22 @@
                 </td>
             </tr>
             <tr>
+                <td><label for="age">Select age</label></td>
+                <td><select name="age" id="age"><option value="over-18">over 18</option>
+                    <option value="under-18">under 18</option></select>
+                
+            </td>
+                    
+            </tr>
+            <tr>
+                <td><label for="select">Select photo</label></td>
+                <td><button type="button">Select photo</button></td>
+            </tr>
+            <tr>
                 <td><button type="submit">Invia</button>
                     <button type="reset">Reset</button></td>
             </tr>
+            
             
             
         </table>
