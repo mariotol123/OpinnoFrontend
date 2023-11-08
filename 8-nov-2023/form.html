@@ -22,6 +22,8 @@
 
         <button> Pulsante di invio. 
 
+        Il value in un input e' il valore associato a quell'input. 
+
         
 
         
@@ -32,6 +34,52 @@
 
 
     -->
+
+    <!--<form>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+        </div>
+            <button type="submit">Submit</button>
+    </form>
+-->
+
+<FORM>
+    <table>
+        <tr>
+            <td><label for="name">Name</label></td>
+            <td><input type="text" name="name" id="name"></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td><label for="message">Message</label></td>
+            <td><textarea name="message" id="message" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="segnalazione">Motivo segnalazione</label></td>
+            <td><select name="segnalazione" id="segnalazione">
+                <option value="secegliere-segnalazione">Scegliere segnalazione</option>
+                <option value="Segnalazione bug">Bug</option>
+                <option value="Domanda">Domanda</option>
+                <option value="Feedback">Feedback</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><button type="submit">Submit</button></td>
+        </tr>
+    </table>
+</FORM>
     
 </body>
 </html>
