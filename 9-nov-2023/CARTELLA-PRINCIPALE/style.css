@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: aqua;
+    height: 30vh;
+    padding: 8vh;
+    
+}
+
+#navbar{
+    background-color: aquamarine;
+    height: 10vh;
+    width: auto;
+    border: 2px solid red;
+    
+}
+
+main{
+    background-color: burlywood;
+    height: 80vh;
+    padding-top: 20vh;
+}
+
+#section1{
+    background-color: blue;
+    height: 20vh;
+}
+#section2{
+    background-color: blueviolet;
+    height: 20vh;
+}
+#section3{
+    background-color: blanchedalmond;
+    height: 20vh;
+}
+
+footer{
+    background-color: black;
+    height: 10vh;
+}
