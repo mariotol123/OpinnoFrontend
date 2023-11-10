@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gainsboro;
+}
+
+h1{
+    text-align: center;
+    font-family: monospace;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+main{
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+.square{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: black;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+section{
+    height: 240px;
+}
+
+.sectionsemi{
+    height: 200px;
+}
+
+h3{
+    padding-top: 50%;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    height: 400px;
+    margin-top: 200px;
+    color: aliceblue;
+}
+
+
+.p{
+    text-align: center;
+    padding: 200px;
+    color: aliceblue;
+}
