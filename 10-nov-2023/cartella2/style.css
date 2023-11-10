@@ -1,0 +1,63 @@
+body{
+    background-color: aquamarine;
+}
+
+header{
+    background-color: orange;
+    padding: 15px;
+    display: flow-root;
+    
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+
+.navigation{
+   background-color: pink;
+   height: 150px;
+   width: 150px;
+   float: right;
+   text-align: center;
+   
+}
+
+.sidebar{
+    background-color: yellow;
+    float: left;
+    height: 500px;
+    width: 20%;
+    margin-right: 15px;
+    
+}
+
+.subcontent{
+    height: 200px;
+    background-color: red;
+    
+}
+
+.subcontent2{
+    height: 200px;
+    background-color: blue;
+   
+}
+
+main div{
+    width: 70%;
+    float: right;
+    margin-bottom: 15px;
+}
+
+main{
+    padding: 20px;
+}
+
+footer{
+    clear: both;
+    background-color: blueviolet;
+    height: 150px;
+    margin-top: 500px;
+}
