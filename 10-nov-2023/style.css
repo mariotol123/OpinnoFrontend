@@ -1,0 +1,28 @@
+header{
+    background-color: orange;
+}
+
+.siderbar{
+    background-color: orangered;
+    float: left;
+    width: 33%;
+    height: 300px;
+}
+
+main{
+    background-color: aquamarine;
+    float: left;
+    width: 33%;
+    height: 300px;
+    
+}
+
+.subcontent{
+    background-color: blue;
+    height: 300px;
+    
+}
+
+footer{
+    background-color: green;
+}
