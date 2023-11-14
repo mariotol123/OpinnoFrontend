@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: blue;
+    padding: 50px;
+    
+}
+
+.box{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.container-interno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-interno1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
