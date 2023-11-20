@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: gray;
+
+}
+
+.card{
+    width: 400px;
+    background-color: wheat;
+    /* Per arotondare l'immagine non usiamo border
+        radius all'img ma utilizziamo overflow : hidden
+        cosi tutto quello che cerca di uscire me lo tagli.
+    */
+    overflow: hidden;
+    border-radius: 10px;
+    /* 
+        Non possiamo usare il padding perche lo prendera' anche 
+        l'img essendo figlia
+    */
+
+}
+
+.card .card-content{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card:hover img{
+    /* Per zoomare uso la transform e non influenzera' il 
+        layout, gli elementi di lato non verranno influenzati
+    */
+    /* Questo e' lo zoom */
+    transform: scale(1.1);
+}
+
+.card h2{
+    transition: all ease 1s;
+}
+
+.card:hover h2{
+    color: blue;
+    transition: all ease 3s;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    transition: all ease 3s;
+}
+
+h2{
+    margin: 0;
+    /* Andiamo ad utilizzare il flex nei genitori */
+    /* margin-bottom: 16px; */
+}
+
+p{margin: 0;
+}

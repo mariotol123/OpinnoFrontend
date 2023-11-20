@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: grey;
+}
+
+ header .container{
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 16px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header nav{
+    display: flex;
+    gap: 12px;
+}
+
+header nav a{
+    color: black;
+    text-decoration: none;
+    transition: all ease 0.2s;
+    position: relative;
+}
+
+header nav a:hover{
+    color: red;
+    transform: scale(1.1);
+}
+
+
+/* after e before con content aggiungono una stringa prima o dopo
+    before e after sono inline, con inline le dimensioni non funzionano
+*/
+header nav a::after{
+    content: "";
+    display: block;
+    width: 0px;
+    height: 2px;
+    background-color: red;
+    transition: all ease 0.4s;
+    margin-top: 0.3rem;
+    position: absolute;
+    left: 0;
+    bottom: -0.5rem;
+    
+}
+
+header nav a:hover::after{
+    width: 100%;
+}
