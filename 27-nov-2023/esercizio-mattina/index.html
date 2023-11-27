@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Los Pollos Hermanos Burgers</h1>
+    </header>
+    
+    <main>
+        <h4 id="nomeOutput"></h4>
+        <h5>Ingredients</h5>
+
+        <div class="checkboxx">
+            <div class="checkbox1">
+                <div id="cheese">
+                    <label for="cheese">Cheese ($0.20)</label>
+                    <input type="checkbox" id="cheeseCheckbox" value="0.20" class="checkbox">
+                </div>
+                <div id="egg">
+                    <label for="egg">Egg ($0.25)</label>
+                    <input type="checkbox" id="eggCheckbox" value="0.25" class="checkbox">
+                </div>
+                <div id="ketchup">
+                    <label for="ketchup">Ketchup ($0.15)</label>
+                    <input type="checkbox" id="ketchupCheckbox" value="0.15" class="checkbox">
+                </div>
+            </div>
+
+            <div class="checkbox2">
+                <div id="lettuce">
+                    <label for="lettuce">Lettuce ($0.30)</label>
+                    <input type="checkbox" id="lettuceCheckbox" value="0.30" class="checkbox">
+                </div>
+                <div id="mustard">
+                    <label for="mustard">Mustard ($0.10)</label>
+                    <input type="checkbox" id="mustardCheckbox" value="0.10" class="checkbox">
+                </div>
+                <div id="tomato">
+                    <label for="tomato">Tomato ($0.35)</label>
+                    <input type="checkbox" id="tomatoCheckbox" value="0.35" class="checkbox">
+                </div>
+            </div>
+        </div>
+
+        <label for="coupon">Discount Coupon</label>
+        <input type="text" id="coupon" placeholder="Inserisci il tuo coupon">
+
+        <button id="calculate">Calculate</button>
+    </main>
+
+    <footer>
+        <h6>Your price: <span id="totalPrice">5.00</span></h6>
+        <p id="invalidCouponMessage" style="color: red;"></p>
+    </footer>
+
+    <script src="js.js"></script>
+</html>

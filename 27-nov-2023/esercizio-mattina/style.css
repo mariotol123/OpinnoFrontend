@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 900px;
+}
+
+header{
+    background-color: rgb(214, 171, 77);
+}
+
+header h1{
+    padding: 20px;
+}
+
+main{
+    padding-left: 20px;
+}
+
+body main h4{
+    margin-top: 50px;
+    
+}
+
+body main h5{
+    margin-top: 20px;
+}
+
+
+.checkboxx{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.checkbox2{
+    padding-right: 600px;
+}
+
+#calculate{
+    display: block;
+    margin: 50px auto;
+}
+
+footer{
+    background-color: red;
+}
