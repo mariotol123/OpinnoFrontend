@@ -1,0 +1,14 @@
+// File: _mixins.scss
+
+// Mixin per creare un bordo personalizzato
+@mixin customBorder($width, $style, $color) {
+    border: $width $style $color;
+  }
+  
+  // Mixin per centrare un elemento orizzontalmente e verticalmente
+  @mixin centerElement {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

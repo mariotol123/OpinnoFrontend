@@ -1,0 +1,32 @@
+body {
+  background-color: #3498db;
+  width: 100px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  color: red;
+}
+
+.element {
+  border: 1px solid red;
+}
+
+div {
+  font-size: 24px;
+}
+
+.card, .card-pokemon-raro {
+  background-color: #ddd;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.card-pokemon-raro {
+  color: lime;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,52 @@
+// File: styles.scss
+
+// Importa le variabili da un file parziale
+@import 'variables';
+
+// Variabili
+$main-color: #3498db;
+$size-first: 100px;
+
+// Utilizza le variabili
+body {
+  background-color: $main-color;
+  width: $size-first;
+}
+
+// Nesting
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      color: red;
+    }
+  }
+}
+
+// Importa il mixin da un file parziale
+@import 'mixins';
+
+// Utilizza il mixin
+.element {
+  @include customBorder(1px, solid, red);
+}
+
+// Operazioni matematiche
+$grandezza-mia: 16px;
+
+div {
+  font-size: $grandezza-mia * 1.5;
+}
+
+// Estensioni
+.card {
+  background-color: #ddd;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.card-pokemon-raro {
+  @extend .card;
+  color: lime;
+}
